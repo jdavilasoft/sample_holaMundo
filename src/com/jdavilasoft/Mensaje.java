@@ -10,7 +10,7 @@ public class Mensaje {
         return scs.nextLine();
     }
 
-    public void saludar(String nombre) {
-        System.out.printf("Hola %s, bienvenido a java \n", nombre);
+    public void saludar(Persona p) {
+        System.out.printf("Hola %s, bienvenido a java \n", p);
     }
 }
